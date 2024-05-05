@@ -1,7 +1,10 @@
 package com.spring.GarageApp.model;
 
+import org.springframework.web.bind.annotation.CrossOrigin;
+
 import jakarta.persistence.*;
 
+@CrossOrigin(origins = "*")
 @Entity
 public class Voiture {
     
